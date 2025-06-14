@@ -8,7 +8,7 @@
 }
 body {
   background: linear-gradient(to right,#B747DC, #6B18DB); /* dois tons de preto/cinza */
-  
+   background: no-repeat;
 
 }
 body* {
@@ -72,7 +72,7 @@ align-items: center;
   #social-links{
     display: flex;
     text-align: center;
-      gap: 2rem;
+      gap: 36px;
       padding: 20px 0;
       font-size: 30px;
     width: 40px;
