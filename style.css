@@ -1,101 +1,105 @@
-*
-
-{
-
-   margin: 0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: linear-gradient(to right,#B747DC, #6B18DB); /* dois tons de preto/cinza */
-   background: no-repeat;
 
-}
-body* {
+body {
+  background: linear-gradient(to right, #B747DC, #6B18DB);
+  background-repeat: no-repeat;
   font-family: "Inter", sans-serif;
   color: white;
-
 }
+
 p {
   color: rgb(10, 0, 10);
-   font-size: 25px;
+  font-size: 25px;
 }
+
 #container {
   width: 360px;
   height: 712px;
-  margin: 100px auto 0px;
+  margin: 100px auto 0;
 }
 
 #profile {
   text-align: center;
   padding: 16px;
 }
+
 #profile img {
   border: solid 10px rgb(24, 2, 2);
-  padding: 0px;
   border-radius: 100%;
-  text-align: center;
- width: 300px;
- height: 300px;
+  width: 300px;
+  height: 300px;
 }
+
 #profile p {
   font-weight: 100;
-  line-height: 10px;
+  line-height: 1.2;
   padding: 12px;
-  
 }
-/*links */
-ul li {
 
+/* links */
+ul li {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 14px 0;
 }
+
 ul li a {
-   background: linear-gradient(to right,#2429E3, #AE2EE0);
-  border: 6px solid rgb(25, 25, 8);
-  display: flex; 
-align-items: center;
+  background: linear-gradient(to right, #2429E3, #AE2EE0);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 16px 0px;
+  padding: 16px;
   gap: 12px;
   color: black;
-  border: 1px solid rgba(red, green, blue, 0.5);
   border-radius: 12px;
   text-decoration: none;
-  font-weight: 100%
-  ;
+  font-weight: 500;
+  transition: 0.3s;
 }
-  /*social-midia*/
-  #social-links{
-    display: flex;
-    text-align: center;
-      gap: 36px;
-      padding: 20px 0;
-      font-size: 30px;
-    width: 40px;
-    height: 40px;
-     max-width: 40px;
-   
-  }
-  #social-links a{
-    display: flex;
- transition: background 0.2s;
- border-radius: 100px;
-  }
-    #social-links a:hover{ 
-      background: color(srgb rgb(164, 3, 227) green blue);
-      padding: 6px;
 
-  }
-  footer{ 
-    padding: 24px 0;
-    text-align: center;
-    font-size: 20px;
-  }
-  footer img {
-    width: 10px;
-    height: 10px;
-  }
+ul li a:hover {
+  opacity: 0.8;
+}
+
+/* social media */
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  padding: 20px 0;
+}
+
+#social-links a {
+  display: flex;
+  transition: background 0.2s;
+  border-radius: 100px;
+}
+
+#social-links a:hover {
+  background-color: rgba(164, 3, 227, 0.3);
+  padding: 6px;
+}
+
+#social-links img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer img {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
