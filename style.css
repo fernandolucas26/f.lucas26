@@ -72,13 +72,13 @@ align-items: center;
   #social-links{
     display: flex;
     text-align: center;
-      gap: 54px;
+      gap: 2rem;
       padding: 20px 0;
       font-size: 30px;
     width: 100%;
     height: auto;
      max-width: 40px;
-    right: 40px;
+   
   }
   #social-links a{
     display: flex;
