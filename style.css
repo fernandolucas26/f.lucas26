@@ -19,7 +19,7 @@ p {
 #container {
   width: 360px;
   height: 712px;
-  margin: 100px auto 0;
+  margin: auto ;
 }
 
 #profile {
